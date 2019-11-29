@@ -12,6 +12,7 @@ import com.assignment.parking_lot.dao.ParkingDeatils;
 import com.assignment.parking_lot.model.Car;
 import com.assignment.parking_lot.service.ParkingLogic;
 
+//Singletone class 
 @SuppressWarnings("hiding")
 public class ParkingDeatilsImpl<Car> implements ParkingDeatils<Car> {
 	private AtomicInteger	capacity		= new AtomicInteger();
